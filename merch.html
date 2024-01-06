@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Satisfy&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,500,700' rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Clam Records</title>
+</head>
+<body>
+    <div class="navbar" id="myTopNav">
+        <a href="./index.html" class="active">Home</a>
+        <a href="./releases.html">Releases</a>
+        <a href="./gallery.html">Gallery</a>
+        <a href="./contact.html">Contact</a>
+        <a href="./merch.html">Shop</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+
+
+    </div>
+
+    <div class="main">
+
+
+
+        <div class="inner-main">
+
+
+                <div class="logo-holder">
+                    <img class="invert-pic" style="width: 60px; padding: 10px;" src="./images/CLAM RECORDS NO BG PS.png" alt="labellogo">
+                    <p>SHOP</p>
+                </div>
+            <div class="merch-holder">
+                <div class="product-card">
+                    <img id="tee"  src="./images/merch clam tee front sun.png" alt="picture of a clam">
+                    <img id="back-tee" src="./images/merch clam tee back sun.png" alt="">
+                    <div class="product-card-price">
+                        <form id="form" action="">
+                            <h2>Clam Records Classic Tee £20</h2>
+                            <p>Get the clammy look in the first ever clam records tee, only the highest quality t shirts</p>
+                            <!-- <label for="size">Size</label>
+                            <select placeholder="select" required name="size" id="size">
+                                <option value="Medium">Medium</option>
+                                <option value="Large">Large</option>
+                                <option value="ExtraLarge">Extra Large</option>
+                            </select>
+                            <label for="color">Color</label>
+                            <select placeholder="select" required name="color" id="color">
+                                <option value="White">White</option>
+                            </select>
+                            <a href="">view size chart</a> -->
+                            <!-- <label for="button"></label>
+                            <input id="button" type="submit"> -->
+                            <button class="cta_button"><a href="https://clam-records.myshopify.com/products/clam-records-essential-tee-white">Shop now</a></button>
+                        </form>
+                        
+                    </div>
+            </div>
+                    <div class="merch-holder">
+                        <div class="product-card">
+                                <img class="shop-pics" src="./images/merch 5 panel 2 (1).png" alt="picture of a clam">
+                            <div class="product-card-price">
+                                <form id="form" action="">
+                            <h2>Clam Records 5 Panel Cap £20 SOLD OUT</h2>
+                            <p>One size Clam Records 5 panel Black Cap with embroieded logo</p>
+                            <!-- <label for="size">Size</label>
+                            <select placeholder="select" required name="size" id="size">
+                                <option value="">One Size</option>
+                            </select>
+                            <label for="color">Color</label>
+                            <select placeholder="select" required name="color" id="color">
+                                <option value="black">Black</option>
+                            </select>
+                            <a href="">view size chart</a> -->
+                            <button class="cta_button"><a href="https://clam-records.myshopify.com/products/clam-records-essential-tee-white">Shop now</a></button>
+                            </form>
+                        
+                            </div>
+                    
+                    </div>
+                    <div class="merch-holder">
+                        <div class="product-card">
+                                <img class="shop-pics" src="./images/merch snapback.png" alt="picture of a clam">
+                            <div class="product-card-price">
+                                <form id="form" action="">
+                            <h2>Clam Records Snapback</h2>
+
+                            <p>The core Clam Records Snapback with embroided logo, one size fits all</p>
+                            <!-- <label for="size">Size</label>
+                            <select placeholder="select" required name="size" id="size">
+                                <option value="OneSize">One Size</option>
+                            </select>
+                            <label for="color">Color</label>
+                            <select placeholder="select" required name="color" id="color">
+                                <option value="black">Black</option>
+                            </select>
+                            <a href="">view size chart</a> -->
+                            <button class="cta_button"><a href="https://clam-records.myshopify.com/products/clam-records-essential-tee-white">Shop now</a></button>
+                            </form>
+                        
+                            </div>
+                    
+                    </div>
+
+            <p id="quote-para"></p>
+
+        </div>
+
+    </div>
+
+
+
+    
+</body>
+
+<script src="./app.js"></script>
+<!-- Meta Pixel Code -->
+<script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '203513021838628');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=203513021838628&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
+</html>
