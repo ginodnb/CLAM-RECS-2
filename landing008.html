@@ -21,7 +21,7 @@
     <div class="navbar" id="myTopNav">
         <a href="./index.html" class="active">Home</a>
         <a href="./releases.html">Releases</a>
-        <a href="gallery.html">Gallery</a>
+        <a href="./gallery.html">Gallery</a>
         <a href="./contact.html">Contact</a>
         <a href="./merch.html">Shop</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -37,16 +37,48 @@
 
             <div class="inner-main">
 
-            <img class="logo" src="./images/CLAM RECORDS NO BG PS.png" alt="labellogo">
-            <h3>NEW MERCH OUT NOW <a href="./merch.html">SHOP NOW</a></h3>
+<div class="logo-holder">
+    <img class="invert-pic" style="width: 60px; padding: 10px;" src="./images/CLAM RECORDS NO BG PS.png" alt="labellogo">
+    <p>LISTEN / DOWNLOAD</p>
+</div>
 
-              <img class="highlight" src="./images/merch clam tee back sun.png" alt="">
+            <div class="content-holder-landing">
+                <div class="release-pic-landing">
+                    <div >
+                    <a href="#">
+                        <img class="artwork" src="./images/BIG NU BOOMER FINAL ART.png">
+                    </a>
+                    </div>
+
+                    <div id="cunt">
+                    <a id="spotify-btn" onclick="spotty()" href="https://open.spotify.com/track/2WaX8sSa2C8SzDPUlfbWhV?si=cf38f53016544c8b" target="_blank">
+                        <img class="landing-link" src="images/spotify landing.png" alt="http://www.higheq.net/splash/FR002/images/spotify.png">
+                    </a>
+                    <br>
+                    <a href="https://www.beatport.com/track/big-nu-boomer/18645862" target="_blank">
+                        <img class="landing-link" src="images/beatport landing.png" alt="http://www.higheq.net/splash/FR002/images/beatport.png">
+                    </a>
+                    <!-- <br>
+                    <a href="https://music.apple.com/us/album/make-a-mess-single/1645042240?ls=1&app=itunes" target="_blank">
+                        <img class="landing-link"src="images/apple landing.png" alt="">
+                    </a>
+                    <br>
+                    <a href="https://www.junodownload.com/products/clikvork-make-a-mess/5760301-02/" target="_blank">
+                        <img class="landing-link"src="images/juno landing.png" alt="">
+                    </a> -->
+                    <p id="quote-para"></p>
+                </div>
 
 
 
 
-            <!-- <button onclick="func1()" class="BUTTON_WXJ" type="submit">CLICK TO ENTER<a href="./home.html" ></a></button> -->
-            <p id="quote-para"></p>
+                </div>
+
+
+            </div>
+
+
+
 
             </div>
 
@@ -70,6 +102,12 @@
     'https://connect.facebook.net/en_US/fbevents.js');
     fbq('init', '203513021838628');
     fbq('track', 'PageView');
+  </script>
+  <script>
+      (spotty ()={
+          return:
+          fbq('trackCustom')
+      });
   </script>
   <noscript><img height="1" width="1" style="display:none"
     src="https://www.facebook.com/tr?id=203513021838628&ev=PageView&noscript=1"
