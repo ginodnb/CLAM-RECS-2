@@ -106,7 +106,10 @@
   <script>
       (spotty ()={
           return:
-          fbq('trackCustom')
+          fbq('track', 'Purchase', {
+value: 0.00,
+currency: 'USD'
+})
       });
 
   </script>
